@@ -1,0 +1,9 @@
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project Tests\obj\Debug\Custom List Project Tests.csprojResolveAssemblyReference.cache
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project Tests\bin\Debug\Custom List Project Tests.dll
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project Tests\bin\Debug\Custom List Project Tests.pdb
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project Tests\bin\Debug\Custom List Project.exe
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project Tests\bin\Debug\Custom List Project.pdb
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project Tests\obj\Debug\Custom List Project Tests.dll
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project Tests\obj\Debug\Custom List Project Tests.pdb

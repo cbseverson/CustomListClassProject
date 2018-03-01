@@ -10,7 +10,7 @@ namespace Custom_List_Project
     {
         static void Main(string[] args)
         {
-            //CustomList custom = new CustomList();
+            //CustomList<T> custom = new CustomList<T>();
         }
     }
 }

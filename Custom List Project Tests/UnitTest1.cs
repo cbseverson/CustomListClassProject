@@ -39,7 +39,7 @@ namespace Custom_List_Project_Tests
             //.Count is used for lists, .Length is used for arrays
         }
         [TestMethod]
-        public void Add_StringInt_AddDateTypesList()
+        public void Add_String_AddDateTypesList()
         {
             CustomList<string> MyList = new CustomList<string>();
             //Arrange
@@ -52,10 +52,28 @@ namespace Custom_List_Project_Tests
 
             //Assert
             Assert.AreNotEqual(MyList[0], MyList[1]);
+            //shows that they are equal data types
+        }
+        [TestMethod]
+        public void Add_Int_AddDateTypesList()
+        {
+            CustomList<int> MyList = new CustomList<int>();
+            //Arrange
+            int type = 1;
+            int type1 = 2;
+
+            //Act
+            MyList.Add(type);
+            MyList.Add(type1);
+
+            //Assert
+            Assert.AreNotEqual(MyList[0], MyList[1]);
+            //shows that they are equal data types
         }
         [TestMethod]
         public void Remove_Object_TotalList()
         {
+            CustomList<string> MyList = new CustomList<string>();
             //Arrange
             string type2 = "word";
 
@@ -64,27 +82,55 @@ namespace Custom_List_Project_Tests
             MyList.Remove(type2);
 
             //Assert
-            Assert.AreEqual(MyList.Count(type2), 0);
+            Assert.AreNotEqual(MyList.Count, 0);
         }
         [TestMethod]
-        public void Remove_Object_TotalList()
+        public void Count_Objects_Array()
         {
+            CustomList<int> MyList = new CustomList<int>();
             //Arrange
-            string type2 = "word";
+            int data1 = 1;
+            int data2 = 2;
+            int data3 = 3;
 
             //Act
-            MyList.Add(type2);
-            MyList.Remove(type2);
+            MyList.Add(data1);
+            MyList.Add(data2);
+            MyList.Add(data3);
 
             //Assert
-            Assert.AreNotEqual(MyList.Add(type2)), MyList[0]);
+            Assert.AreEqual(MyList.Count, 3);
+        }
+
+        [TestMethod]
+        public void Double_Array_ArraySize()
+        {
+            //Arrange
+            
+
+            //Act
+            
+
+            //Assert
+            
         }
         [TestMethod]
 
         public void Add_Instance_TotalList()
         {
             //Arrange
+
             //Act
+
+            //Assert
+        }
+        [TestMethod]
+        public void Count_Array_TotalLength()
+        {
+            //Arrange
+
+            //Act
+
             //Assert
         }
 
@@ -95,6 +141,26 @@ namespace Custom_List_Project_Tests
             //Act
             //Assert
         }
+        [TestMethod]
+        public void Zipper_Add_CombineTogether()
+        {
+            CustomList<int> cl = new CustomList<int>();
+            //Arrange
+            //Act
+            //Assert
+        }
+        [TestMethod]
+        [ExpectedException(typeof(DivideByZeroException))]
+        //need to figure out what to test here
+        public void Exception_Expected_Total()
+        {
+            CustomList<int> cl = new CustomList<int>();
+            //Arrange
 
+            //Act - it will pass if it divides by zero
+
+            //Assert - don't need an assert here
+
+        }
     }
 }

@@ -1,1 +1,6 @@
 C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project\bin\Debug\Custom List Project.exe.config
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project\obj\Debug\Custom List Project.csprojResolveAssemblyReference.cache
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project\bin\Debug\Custom List Project.exe
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project\bin\Debug\Custom List Project.pdb
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project\obj\Debug\Custom List Project.exe
+C:\Users\court\OneDrive\Desktop\Custom List Project\Custom List Project\obj\Debug\Custom List Project.pdb
