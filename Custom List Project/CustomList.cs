@@ -67,7 +67,7 @@ namespace Custom_List_Project
         {
             data = new T[capacity];
         }
-        public bool Remove(T item)
+        public bool Remove (T item)
         {
             //need to have a way to search for items
             //need to run Transfer to Array
@@ -91,14 +91,14 @@ namespace Custom_List_Project
 
         public static CustomList<T> operator +(CustomList<T> list1, CustomList<T> list2)
         {
-            //figure out how to add all contents
+            CustomList<T> list3;
             list3 = list1 + list2;
             return list3;
 
         }
         public static CustomList<T> operator -(CustomList<T> list1, CustomList<T> list2)
         {
-            //figure out how to add all contents
+            CustomList<T> list3;
             list3 = list1 + list2;
             return list3;
         }

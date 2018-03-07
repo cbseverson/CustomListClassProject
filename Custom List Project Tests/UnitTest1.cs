@@ -151,7 +151,6 @@ namespace Custom_List_Project_Tests
         }
         [TestMethod]
         [ExpectedException(typeof(DivideByZeroException))]
-        //need to figure out what to test here
         public void Exception_Expected_Total()
         {
             CustomList<int> cl = new CustomList<int>();
